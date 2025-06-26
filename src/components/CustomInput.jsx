@@ -63,7 +63,7 @@ export default function CityDropdown({ onCitySelect }) {
  * @function handleCitySelect
  * @param {Object} city - The selected city object containing city information.
  * @returns {void} Updates the state with the selected city and closes the dropdown.
- */
+ */ 
   const handleCitySelect = (city) => {
     onCitySelect(city);
     setIsOpen(false);
